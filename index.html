@@ -24,10 +24,10 @@
                 <a href="#" class="navbar-brand">
                    <img src="img/logo.png" alt="logo" width="142"> 
                 </a>
-                    <button class="navbar-tuggler">
+                    <button class="navbar-tuggler" data-toggle="collapse" data-target="#nav-principal">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="nav-principal">
                     <!--ml-auto altera a margen esquerda automatica -> O nav muda para o lado direito-->
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
@@ -48,6 +48,43 @@
         </nav>
     </header><!--/fim Cabecalho -->
 
+    <section id="home"> <!--Início da seção home -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h1>Suas contas, descomplicadas</h1>
+                        <p>
+                            Usado por mais de  1 milhão de pessoas, o Finans é  uma
+                            ferramentaonline que vai facilitar sua vida financeira.
+                        </p>
+
+                        <form class="mt-4 mb-4">
+                            <div class="input-group input-group-lg">
+                                <input type="text" placeholder="Seu e-mail" class="form-control">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-primary">Cadastre-se
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <p>
+                            Dispponível para 
+                            <a href="" class="btn btn-outline-light">
+                                <i class="fa-brands fa-android"></i>
+                            </a>
+                            <a href="" class="btn btn-outline-light">
+                                <i class="fa-brands fa-apple"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="img/capa-mulher.png" alt="capa-mulher">
+                </div>
+            </div>
+        </div>
+    </section> <!--Fim da seção home -->
    
 
     <!-- JavaScript (Opcional) -->
